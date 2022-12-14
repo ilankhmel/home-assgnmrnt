@@ -1,0 +1,22 @@
+.ability-list{
+    width: 90%;
+    padding: 0;
+    margin: auto;
+    display: grid;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+        .ability{
+        list-style-type: none;
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    @media(max-width:750px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

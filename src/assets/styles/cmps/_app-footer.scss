@@ -1,0 +1,109 @@
+.app-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #0b1524;
+    padding: 50px;
+    .footer-logo{
+        width: 15%;
+    }
+    gap: 30px;
+
+    @media(max-width:750px){
+        .site-details{
+                padding: 0;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                >*{
+                    width: 100%;
+                }
+                .location{
+                    max-width: 100%;
+                }
+                .socials{
+                    justify-content: center;
+                }
+            }
+    }
+}
+.site-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    a{
+        color: white;
+        
+    }
+    p{
+        margin: 0;
+    }
+    .location{
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        font-size: 14px;
+        max-width: 30%;
+        img{
+            height: 20px;
+            margin-top: 5px;
+        }
+    }
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .phone{
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        font-size: 14px;
+        img{
+            height: 20px;
+            margin-top: 5px;
+        }
+    }
+    .email{
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        font-size: 14px;
+        img{
+            height: 20px;
+            margin-top: 5px;
+        }
+    }
+
+    .footer-nav-1, .footer-nav-2{
+        a{
+            display: block;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .socials{
+        display: flex;
+        gap: 10px;
+      
+        img{
+            padding: 5px;
+            background-image: unset;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 50%;
+            width: 25px;   
+            height: 25px;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+        }
+    }
+
+  
+}

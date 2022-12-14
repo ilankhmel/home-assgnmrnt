@@ -1,0 +1,15 @@
+.hero{
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    h1{
+        font-size: 30px;
+    }
+    img{
+        width:100%;
+    }
+    @media(max-width:750px){
+        width: 100%;
+    }
+   
+}
